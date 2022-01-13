@@ -161,3 +161,19 @@ year = 1889
 n = 42
 my_message = f"{state} was the {n}{st_nd_rd_th(n)} state to join the union in {year}."
 print(my_message)
+
+n = 0
+while n < 1000:
+    n += 1
+    if n % 2 == 0:
+        print(f'{n} is even...')
+
+n = True # setting a boolean
+num = 1 # setting a number that will incremented
+while n: # if n get to False --> the loop stops
+    if num % 2 == 0: # check to see if number is even
+        print(f'{num} is even...')
+        if num == 750: # check to see if num is 750
+            n = False # set the boolean to False
+            print('End Program')
+    num += 1 # adding one to num
