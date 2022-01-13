@@ -196,17 +196,41 @@ for i in range(len(nums)):
             print('Hi I am 750')
 
 students = [
-    {
+    { 
         "name": "Kimmie",
-        "city": "Atlanta",
+        "city": "Atlanta"
     },
-    {
+    { 
         "name": "Chris",
-        "city": "Salt Lake City",
+        "city": "Salt Lake City"
     },
-    {
+    { 
         "name": "Zack",
-        "city": "Los Angeles",
+        "city": "Los Angeles"
+    },
+     { 
+        "name": "John",
+        "city": "Atlanta"
+    },
+    { 
+        "name": "Jane",
+        "city": "New York"
+    },
+    { 
+        "name": "Rob",
+        "city": "Los Angeles"
+    },
+     { 
+        "name": "Harper",
+        "city": "Washington"
+    },
+    { 
+        "name": "Mike",
+        "city": "Seattle"
+    },
+    { 
+        "name": "Set",
+        "city": "San Francisco"
     },
 ]
 
