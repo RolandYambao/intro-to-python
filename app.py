@@ -257,3 +257,12 @@ def move(name, city="Seattle", state="Washington"):
 move("Charlie", "Los Angeles", "California")
 move(city="San Francisco", name="Mark", state="California")
 move("John", state="New York", city="New York")
+
+def sentence(name, action="attack", thing="box"):
+    msg = "{} is seeking to {}, a {}"
+    msg = msg.format(name, action, thing)
+    print(msg)
+
+sentence("Bob", "attack", "box")
+sentence(name="Jon", action="shoots", thing="rock")
+sentence("Tim", action="paint", thing="wall")
