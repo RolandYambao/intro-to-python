@@ -123,3 +123,22 @@ print('KEYS', cat.keys())
 cat_keys = list(cat.keys())
 print(cat_keys)
 
+# String Interpolation
+state = "Washington State"
+year = 1889
+n = 42
+my_message = f"{state} was the {n}th state to join the union in {year}."
+print(my_message)
+
+# 2
+location = "California"
+number = 6
+my_second_message = f"{location} is the {number}th largest economy in the world."
+print(my_second_message)
+
+# 3
+topic = 'Inflation'
+num = 7
+y = 1982
+my_third_message = "{} is at {} percent. Highest since {}".format(topic, num, y)
+print(my_third_message)
