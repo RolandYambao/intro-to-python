@@ -220,3 +220,26 @@ for i in range(len(students)):
 for i in range(len(students)):
     student = students[i]
     print(student.get("city"))
+
+# Iterating through list of students
+for student in students:
+    print(student)
+
+# Iterating through dict
+for key in students[0]: # key to key
+    print(key) # string of the key
+    print('value', students[0].get(key))
+
+# Iterating through dict PART 2
+for key in students[1]: # key to key
+    print(key, 'PART 2') # string of the key
+    print('value', students[1][key])
+
+# Iterating through dict PART 3
+for anything in students[2]: # key to key
+    print(anything, 'PART 3') # string of the key
+    print('value', students[2][anything])
+
+# Iterating through dict PART 4
+for key, value in students[0].items(): # key to key
+    print(key, "-->", value)
