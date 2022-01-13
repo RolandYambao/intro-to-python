@@ -266,3 +266,31 @@ def sentence(name, action="attack", thing="box"):
 sentence("Bob", "attack", "box")
 sentence(name="Jon", action="shoots", thing="rock")
 sentence("Tim", action="paint", thing="wall")
+
+def get_cities(students):
+    '''Return a [list] of all cities from the students list'''
+    # TODO make an empty list
+    # TODO Iterate through the list of students
+    # TODO Append each city in the dict to the empty list
+    # TODO return the list
+
+    result = []
+
+    for s in students:
+        if s.get('city'):
+            result.append(s.get('city'))
+    return result
+
+print('Cities list: ', get_cities(students))
+
+def get_names(students):
+    '''Return a [list] of all names from the students list'''
+
+    result = []
+
+    for s in students:
+        if s.get('name'):
+            result.append(s.get('name'))
+    return result
+
+print('Names list: ', get_names(students))
