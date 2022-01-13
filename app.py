@@ -243,3 +243,17 @@ for anything in students[2]: # key to key
 # Iterating through dict PART 4
 for key, value in students[0].items(): # key to key
     print(key, "-->", value)
+
+def say_hello(friend="Tim"):
+    print("Hello, {}!".format(friend))
+
+say_hello("Tom")
+
+def move(name, city="Seattle", state="Washington"):
+    msg = "{} is moving to {}, {}"
+    msg = msg.format(name, city, state)
+    print(msg)
+
+move("Charlie", "Los Angeles", "California")
+move(city="San Francisco", name="Mark", state="California")
+move("John", state="New York", city="New York")
