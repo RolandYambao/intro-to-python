@@ -177,3 +177,46 @@ while n: # if n get to False --> the loop stops
             n = False # set the boolean to False
             print('End Program')
     num += 1 # adding one to num
+
+# for loop
+for i in range(1, 751):
+    if i % 2 == 0:
+        print(f"{i} is even...", '**')
+
+        if i == 750:
+            print('End program')
+
+nums = [1,2,3,750,55,66,44,33,22,11,33,44]
+for i in range(len(nums)):
+    element = nums[i]
+    if element % 2 == 0:
+        print(f"{element} is even...", 'NUMS')
+
+        if element == 750:
+            print('Hi I am 750')
+
+students = [
+    {
+        "name": "Kimmie",
+        "city": "Atlanta",
+    },
+    {
+        "name": "Chris",
+        "city": "Salt Lake City",
+    },
+    {
+        "name": "Zack",
+        "city": "Los Angeles",
+    },
+]
+
+for i in range(len(students)):
+    student = students[i]
+    print(student.get("name"))
+
+    if student.get("city") == 'Los Angeles':
+        print(f'{student.get("name")} wins an iPad for {student.get("city")}')
+
+for i in range(len(students)):
+    student = students[i]
+    print(student.get("city"))
