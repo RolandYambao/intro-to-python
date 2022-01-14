@@ -14,7 +14,7 @@ print(combine) # 2pizza
 
 # print(2.5 * 'fish') # Error
 print(5 >= 11) # False
-print(5 == 5.0 ) # True
+print(5 == 5.0) # True
 print(7 != 7.1) # True
 print(5 + 5 > 8) # True
 print(6 + 6 != 12) # False
