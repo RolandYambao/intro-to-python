@@ -33,11 +33,13 @@ print(count_scores(peeps)); # => { Pete: 4, Mike: 4, Dexter: 6 }
 
 def count_scores(people):
   final_score = {}
-  for i in range(0,len(people)):
-    if (final_score[i]['name']):
-      final_score[i]['name'] = final_score[i]['name'] + people[i]['score']
+  for thing in people:
+    name = thing.get('name')
+    score = thing.get('score')
+    if (final_score.get(name)):
+      final_score[name] += score
     else:
-      final_score[i]['name'] = people[i]['score']
+      final_score[name] = score
   return final_score
 
 
